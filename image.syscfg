@@ -1,0 +1,27 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "CC3220SF" --package "Default" --part "Default" --ccxxImageMode --product "simplelink_cc32xx_sdk@4.40.00.07"
+ * @versions {"data":"2021031521","timestamp":"2021031521","tool":"1.8.0+1863","templates":null}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const General     = scripting.addModule("/ti/drivers/net/imagecreator/new_design/Device/General");
+const Ota         = scripting.addModule("/ti/drivers/net/imagecreator/new_design/Device/Ota");
+const Network     = scripting.addModule("/ti/drivers/net/imagecreator/new_design/NetworkServices/Network");
+const CertStore   = scripting.addModule("/ti/drivers/net/imagecreator/new_design/UserFiles/CertStore");
+const MCUImage    = scripting.addModule("/ti/drivers/net/imagecreator/new_design/UserFiles/MCUImage");
+const ServicePack = scripting.addModule("/ti/drivers/net/imagecreator/new_design/UserFiles/ServicePack");
+const fileTree    = scripting.addModule("/ti/drivers/net/imagecreator/new_design/UserFiles/fileTree");
+const Mac         = scripting.addModule("/ti/drivers/net/imagecreator/new_design/WiFi/Mac");
+const Radio       = scripting.addModule("/ti/drivers/net/imagecreator/new_design/WiFi/Radio");
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+General.ModeSelect     = "development";
+General.capacitySelect = "1048576";
+
+fileTree.rootDirCfg = "userFiles";

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<ccsVersion value="10.1.0"/>
+	<deviceVariant value="Cortex M.CC3220SF"/>
+	<deviceFamily value="TMS470"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="20.2.4.LTS"/>
+	<isElfFormat value="true"/>
+	<connection value="common/targetdb/connections/TIXDS110_Connection.xml"/>
+	<rts value=""/>
+	<createSlaveProjects value=""/>
+	<ignoreDefaultDeviceSettings value="true"/>
+	<ignoreDefaultCCSSettings value="true"/>
+	<templateProperties value="id=adcsinglechannel_CC3220SF_LAUNCHXL_tirtos_ccs.projectspec.adcsinglechannel_CC3220SF_LAUNCHXL_tirtos_ccs,buildProfile=release,isHybrid=true"/>
+	<origin value="C:/Users/varun/workspace_v10/adcsinglechannel_CC3220SF_continuous"/>
+	<filesToOpen value=""/>
+	<isTargetManual value="false"/>
+</projectOptions>
